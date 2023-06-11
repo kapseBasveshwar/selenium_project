@@ -33,7 +33,7 @@ public class VerifyHomePage {
 		}
 	  @Test
 	  public void verifyUserAbleToSelectOptionsFromDropdown() throws IOException {
-		  //hard assertion
+		  //hard assertion.............
 		/*  assertEquals(omayoHomePage.getHomePageTitle(),"omayo (QAFox.com)");
 		 
 		  assertTrue(omayoHomePage.getHomePageTitle().endsWith("omayo (QAFox.com)"));
