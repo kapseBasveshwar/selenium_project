@@ -24,7 +24,7 @@ public class VerifyUserAbleToSelectOptionsFromDropdown {
 		driver.manage().window().maximize();
 		omayoHomePage=new OmayoHomePage(driver);
 	}
-  @Test
+  @Test(priority = 0)
   public void verifyUserAbleToSelectOptionsFromDropdown() {
 	  omayoHomePage.selectMultiSelectDropdownOption("Audi");
 	  omayoHomePage.selectMultiSelectDropdownOption("Volvo");
